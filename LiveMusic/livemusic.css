@@ -56,7 +56,7 @@ body {
 }
 
 main {
-    background-image: url(/background.jpg);
+    background-image: url(./background.jpg);
     height: 500px;
     background-size: cover;
     display: flex;
@@ -73,12 +73,6 @@ main .text {
     text-decoration: underline;
     color: #ff0078;
     transform: scale(1.5);
-
-    /* transform: scale(1.4);
-    .tectonic {
-        text-decoration: underline;
-        color: #ff0078;
-    } */
 }
 
 .tectonic:hover .new {
